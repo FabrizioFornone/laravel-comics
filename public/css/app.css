@@ -12297,12 +12297,12 @@ footer button {
   border: 1px solid #5ea8f2;
 }
 
-footer button:hover a {
-  color: #5ea8f2;
-}
-
 footer button a {
   color: #fff;
+}
+
+footer button:hover a {
+  color: #5ea8f2;
 }
 
 footer h4,
@@ -12312,6 +12312,11 @@ footer .h4 {
 
 footer h4 a,
 footer .h4 a {
+  color: #5ea8f2;
+}
+
+footer h4:hover a,
+footer .h4:hover a {
   color: #5ea8f2;
 }
 

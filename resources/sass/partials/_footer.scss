@@ -3,31 +3,34 @@
 footer {
     background-color: $dark-color;
     padding: 30px 0;
-  
+
     button {
-      padding: 8px;
-      background-color: $dark-color;
-      border: 1px solid $azure-color;
-  
-      &:hover a {
-        color: $azure-color;
-      }
-  
-      a {
-        color: $text-white;
-      }
+        padding: 8px;
+        background-color: $dark-color;
+        border: 1px solid $azure-color;
+
+        a {
+            color: $text-white;
+        }
+
+        &:hover a {
+            color: $azure-color;
+        }
     }
-  
+
     h4 {
-      padding: 0 20px;
-  
-      a {
-        color: $azure-color;
+        padding: 0 20px;
+
+        a {
+            color: $azure-color;
+        }
+
+        &:hover a {
+          color: $azure-color;
       }
     }
-  
+
     img {
-      margin: 0 8px;
+        margin: 0 8px;
     }
-  }
-  
+}
