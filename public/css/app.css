@@ -12179,6 +12179,13 @@ body {
 
 ul {
   list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+h4,
+.h4 {
+  margin-bottom: 0;
 }
 
 a {
@@ -12207,7 +12214,6 @@ header nav {
 
 header nav ul {
   height: 100%;
-  padding-left: 0;
 }
 
 header nav ul li {
@@ -12246,8 +12252,8 @@ section {
   background-size: cover;
 }
 
-section h3,
-section .h3 {
+section h4,
+section .h4 {
   color: #fff;
   padding: 5px 0;
 }
@@ -12277,7 +12283,7 @@ section .dc-logo-bg {
   background: url("/img/dc-logo-bg.png") center center;
   background-size: cover;
   width: 500px;
-  height: 330px;
+  height: 355px;
 }
 
 footer {
@@ -12299,13 +12305,13 @@ footer button a {
   color: #fff;
 }
 
-footer h3,
-footer .h3 {
+footer h4,
+footer .h4 {
   padding: 0 20px;
 }
 
-footer h3 a,
-footer .h3 a {
+footer h4 a,
+footer .h4 a {
   color: #5ea8f2;
 }
 

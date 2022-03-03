@@ -2,7 +2,7 @@
     <div class="container d-flex justify-content-between">
         <div class="d-flex list-container">
             <div>
-                <h3>DC Comics</h3>
+                <h4>DC Comics</h4>
                 <ul>
                     <li><a href="#">Characters</a></li>
                     <li><a href="#">Comics</a></li>
@@ -12,14 +12,14 @@
                     <li><a href="#">Videos</a></li>
                     <li><a href="#">News</a></li>
                 </ul>
-                <h3>SHOP</h3>
+                <h4>SHOP</h4>
                 <ul>
                     <li><a href="#">Shop DC</a></li>
                     <li><a href="#">Shop DC Collectibles</a></li>
                 </ul>
             </div>
             <div>
-                <h3>DC</h3>
+                <h4>DC</h4>
                 <ul>
                     <li><a href="#">Terms Of Use</a></li>
                     <li><a href="#">Privacy policy (New)</a></li>
@@ -35,7 +35,7 @@
                 </ul>
             </div>
             <div>
-                <h3>SITES</h3>
+                <h4>SITES</h4>
                 <ul>
                     <li><a href="#">DC</a></li>
                     <li><a href="#">MAD Magazine</a></li>
