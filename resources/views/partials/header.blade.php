@@ -5,31 +5,31 @@
     <nav>
         <ul class="d-flex pointer">
             <li class="d-flex align-items-center">
-                <a href="#">CHARACTERS</a>
+                <a href="{{ url('/') }}">CHARACTERS</a>
             </li>
             <li class="d-flex align-items-center">
-                <a href="#">COMICS</a>
+                <a href="{{ url('/comics') }}">COMICS</a>
             </li>
             <li class="d-flex align-items-center">
-                <a href="#">MOVIES</a>
+                <a href="{{ url('/') }}">MOVIES</a>
             </li>
             <li class="d-flex align-items-center">
-                <a href="#">GAMES</a>
+                <a href="{{ url('/') }}">GAMES</a>
             </li>
             <li class="d-flex align-items-center">
-                <a href="#">COLLECTIBLES</a>
+                <a href="{{ url('/') }}">COLLECTIBLES</a>
             </li>
             <li class="d-flex align-items-center">
-                <a href="#">VIDEOS</a>
+                <a href="{{ url('/') }}">VIDEOS</a>
             </li>
             <li class="d-flex align-items-center">
-                <a href="#">FANS</a>
+                <a href="{{ url('/') }}">FANS</a>
             </li>
             <li class="d-flex align-items-center">
-                <a href="#">NEWS</a>
+                <a href="{{ url('/') }}">NEWS</a>
             </li>
             <li class="d-flex align-items-center">
-                <a href="#">SHOP</a>
+                <a href="{{ url('/') }}">SHOP</a>
             </li>
         </ul>
     </nav>

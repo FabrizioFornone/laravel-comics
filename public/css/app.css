@@ -12183,9 +12183,14 @@ ul {
   margin-bottom: 0;
 }
 
+h5,
+.h5,
 h4,
-.h4 {
+.h4,
+h3,
+.h3 {
   margin-bottom: 0;
+  font-weight: bolder;
 }
 
 a {
@@ -12247,6 +12252,94 @@ header input {
   height: 320px;
 }
 
+main {
+  background-color: #303030;
+}
+
+main h3,
+main .h3,
+main a {
+  color: #fff;
+}
+
+main h3,
+main .h3,
+main button {
+  background-color: #5ea8f2;
+}
+
+main h3,
+main .h3 {
+  padding: 4px 11px;
+  position: absolute;
+  top: -2.5%;
+  left: 11.5%;
+}
+
+main .card-row {
+  flex-wrap: wrap;
+  padding: 20px 0;
+  color: #fff;
+}
+
+main .card-row .card-box {
+  width: calc(16.6666666667% - 60px);
+  margin: 20px 30px;
+}
+
+main .card-row .card-box .single-card {
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+main .card-row .card-box .single-card img {
+  width: 100%;
+}
+
+main .card-row .card-box .series {
+  font-weight: bolder;
+}
+
+main button {
+  padding: 7px 50px;
+  margin-bottom: 20px;
+}
+
+main button:hover a {
+  color: #788383;
+}
+
+.merch-container {
+  background-color: #5ea8f2;
+}
+
+.merch-container ul li {
+  padding: 50px 0;
+  font-size: 13px;
+  width: 20%;
+}
+
+.merch-container ul li > img {
+  width: 50px;
+}
+
+.merch-container ul li > div {
+  padding: 0 12px;
+}
+
+.merch-container ul li > div a {
+  color: #fff;
+}
+
+.merch-container ul li #locator-logo {
+  width: 33px;
+}
+
+.merch-container ul li #visa-logo {
+  width: 53px;
+}
+
 section {
   background: url("/img/footer-bg.jpg");
   background-size: cover;
@@ -12305,18 +12398,18 @@ footer button:hover a {
   color: #5ea8f2;
 }
 
-footer h4,
-footer .h4 {
+footer h5,
+footer .h5 {
   padding: 0 20px;
 }
 
-footer h4 a,
-footer .h4 a {
+footer h5 a,
+footer .h5 a {
   color: #5ea8f2;
 }
 
-footer h4:hover a,
-footer .h4:hover a {
+footer h5:hover a,
+footer .h5:hover a {
   color: #5ea8f2;
 }
 

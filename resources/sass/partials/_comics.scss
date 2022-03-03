@@ -1,0 +1,88 @@
+@import "./partials/variabiles";
+
+main {
+    background-color: $dark-color;
+
+    h3,
+    a {
+        color: $text-white;
+    }
+
+    h3,
+    button {
+        background-color: $azure-color;
+    }
+
+    h3 {
+        padding: 4px 11px;
+        position: absolute;
+        top: -2.5%;
+        left: 11.5%;
+    }
+
+    .card-row {
+        flex-wrap: wrap;
+        padding: 20px 0;
+        color: $text-white;
+
+        .card-box {
+            width: calc(100% / 6 - 60px);
+            margin: 20px 30px;
+
+            .single-card {
+                height: 150px;
+                overflow: hidden;
+                margin-bottom: 10px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .series {
+                font-weight: bolder;
+            }
+        }
+    }
+
+    button {
+        padding: 7px 50px;
+        margin-bottom: 20px;
+
+        &:hover a {
+            color: $text-secondary-grey;
+        }
+    }
+}
+
+.merch-container {
+    background-color: $azure-color;
+
+    ul {
+        li {
+            padding: 50px 0;
+            font-size: 13px;
+            width: calc(100% / 5);
+
+            > img {
+                width: 50px;
+            }
+
+            > div {
+                padding: 0 12px;
+
+                a {
+                    color: $text-white;
+                }
+            }
+
+            #locator-logo {
+                width: 33px;
+            }
+
+            #visa-logo {
+                width: 53px;
+            }
+        }
+    }
+}
